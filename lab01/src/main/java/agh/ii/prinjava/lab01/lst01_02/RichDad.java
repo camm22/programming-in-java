@@ -14,9 +14,11 @@ public class RichDad {
     // ...
 
     protected void setUpSuccessfulCompany() {
+
     }
 
     protected void increaseWealth() {
+       fortune = fortune.add(BigDecimal.TEN);
     }
     // ...
 
