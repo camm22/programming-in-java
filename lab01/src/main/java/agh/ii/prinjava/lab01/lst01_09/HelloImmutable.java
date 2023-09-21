@@ -1,7 +1,6 @@
 package agh.ii.prinjava.lab01.lst01_09;
 
 import java.util.Objects;
-
 /**
  * An example of a simple immutable class -- its instances cannot be "mutated"
  * Note: more about keyword {@code final} next time
