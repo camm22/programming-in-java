@@ -105,7 +105,7 @@ public class Main {
         System.out.println("i31.m3(5) = " + i31.apply(5));
 
         I3[] i3s = {
-                (int x) -> 2 * x, // <- This is most common
+                (int x) -> 2 * 2, // <- This is most common
                 (int x) -> {
                     return 2 * x;
                 }

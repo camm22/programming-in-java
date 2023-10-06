@@ -5,6 +5,7 @@ import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
+import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 class LinkedListBasedImplTest {
@@ -24,4 +25,20 @@ class LinkedListBasedImplTest {
     void newStackIsEmpty() {
         assertTrue(stackOfInts.isEmpty());
     }
+
+    @Test
+    void pushTest(){
+        LinkedListBasedImpl linkedList = new LinkedListBasedImpl();
+        linkedList.push(5);
+        assertEquals(1, linkedList.numOfElems());
+    }
+
+    @Test
+    void poopTest(){
+        LinkedListBasedImpl linkedList = new LinkedListBasedImpl();
+        linkedList.push(5);
+
+        assertEquals(5, linkedList.pop());
+    }
+
 }

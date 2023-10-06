@@ -49,6 +49,8 @@ class OuterClass { // <- Top level class
 
             z = "abc"; // or his.z = "abc"; or InnerClass.this.z = "abc";
             OuterClass.this.z = 4;
+            //s = 1;
+            //System.out.println("test camille : " + s);
         }
     }
 
