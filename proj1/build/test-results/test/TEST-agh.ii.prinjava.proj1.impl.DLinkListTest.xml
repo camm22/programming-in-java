@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="agh.ii.prinjava.proj1.impl.DLinkListTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2023-10-20T13:01:14" hostname="LAPTOP-CDFV89IF" time="0.084">
+  <properties/>
+  <testcase name="removeLastTest1()" classname="agh.ii.prinjava.proj1.impl.DLinkListTest" time="0.064"/>
+  <testcase name="removeLastTest2()" classname="agh.ii.prinjava.proj1.impl.DLinkListTest" time="0.002"/>
+  <testcase name="addFirstTest()" classname="agh.ii.prinjava.proj1.impl.DLinkListTest" time="0.002"/>
+  <testcase name="toStringTest()" classname="agh.ii.prinjava.proj1.impl.DLinkListTest" time="0.002"/>
+  <testcase name="removeFirstTest1()" classname="agh.ii.prinjava.proj1.impl.DLinkListTest" time="0.003"/>
+  <testcase name="removeFirstTest2()" classname="agh.ii.prinjava.proj1.impl.DLinkListTest" time="0.002"/>
+  <testcase name="addLastTest()" classname="agh.ii.prinjava.proj1.impl.DLinkListTest" time="0.001"/>
+  <system-out><![CDATA[[NULL]
+[NULL]<-->[@|9|@]<-->[@|8|@]<-->[NULL]
+[NULL]
+[NULL]<-->[@|8|@]<-->[NULL]
+[NULL]<-->[@|5|@]<-->[NULL]
+[NULL]<-->[@|1|@]<-->[@|2|@]<-->[@|3|@]<-->[NULL]
+Error : Cannot remove from an empty list !
+[NULL]<-->[@|8|@]<-->[NULL]
+[NULL]<-->[@|9|@]<-->[@|8|@]<-->[NULL]
+[NULL]<-->[@|5|@]<-->[NULL]
+[NULL]<-->[@|5|@]<-->[@|8|@]<-->[NULL]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="agh.ii.prinjava.lab04.exc04_02.impl.MyStackDLLBImplTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2023-10-20T00:30:07" hostname="LAPTOP-CDFV89IF" time="0.028">
+  <properties/>
+  <testcase name="pushTest2()" classname="agh.ii.prinjava.lab04.exc04_02.impl.MyStackDLLBImplTest" time="0.022"/>
+  <testcase name="popTest()" classname="agh.ii.prinjava.lab04.exc04_02.impl.MyStackDLLBImplTest" time="0.001"/>
+  <testcase name="peekTest()" classname="agh.ii.prinjava.lab04.exc04_02.impl.MyStackDLLBImplTest" time="0.001"/>
+  <testcase name="pushTest()" classname="agh.ii.prinjava.lab04.exc04_02.impl.MyStackDLLBImplTest" time="0.001"/>
+  <system-out><![CDATA[[NULL]<-->[@|1|@]<-->[NULL]
+[NULL]<-->[@|3|@]<-->[@|2|@]<-->[@|1|@]<-->[NULL]
+[NULL]<-->[@|2|@]<-->[@|1|@]<-->[NULL]
+[NULL]<-->[@|1|@]<-->[NULL]
+[NULL]<-->[@|213|@]<-->[@|42|@]<-->[NULL]
+[NULL]<-->[@|5|@]<-->[NULL]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
